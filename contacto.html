@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Llamar CSS Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Llamar CSS Local-->
+    <link rel="stylesheet" href="estilosCss.css">
+
+    <!--Llamar GoogleFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rufina&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+
+    <!--LLamar FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" href="imagenes/minTic2.png">
+
+    <title>Contacto-Arte Expres</title>
+</head>
+<body>
+
+
+ 
+
+
+
+
+ <!--Menu de la pagina-->
+
+   
+
+<div class="barraCont">
+        <ul id="menu">
+
+
+            <img src="imagenes/18 sin título_20211117210123.png" width="325px" height="80px" >  
+            <img src="imagenes/logoPag.png" class="logoT">
+            <li><a href="index.html">Inicio</a></li>
+            <li class="barras"><i class="far fa-dot-circle" style="background-color: rgb(71, 71, 71);"></i></li>
+            <li><a href="quienesSomos.html">¿Quiénes somos?</a></li>
+            <li class="barras"><i class="far fa-dot-circle" style="background-color: rgb(71, 71, 71);"></i></li>
+            <li><a href="dibujo.html">Dibujo</a></li>
+            <li class="barras"><i class="far fa-dot-circle" style="background-color: rgb(71, 71, 71);"></i></li>
+            <li><a href="pintura.html">Pintura</a></li>
+            <li class="barras"><i class="far fa-dot-circle" style="background-color: rgb(71, 71, 71);"></i></li>
+            <li><a href="foto.html">Fotografía</a></li>
+            <li class="barras"><i class="far fa-dot-circle" style="background-color: rgb(71, 71, 71);"></i></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li class="barras"><i class="far fa-dot-circle" style="background-color: rgb(71, 71, 71);"></i></li>
+            <li"><i class="fas fa-cart-plus fa-2x" style="color: white;"></i></li>
+
+        </ul>
+
+</div>
+
+
+
+<hr style="margin-bottom: 0px; margin-top: 0px;">
+
+
+
+
+
+
+
+
+<div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+<h1 class="mt-4 mb-3">Contactanos
+    <small></small>
+  </h1>
+
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <a href="index.html">Inicio</a>
+    </li>
+    <li class="breadcrumb-item active">Contacto</li>
+  </ol>
+        <div class="row">
+            <div class="col-12">
+
+            
+                <!-- Contact Form -->
+    <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+    <div class="row">
+        <div class="col-lg-6 mb-4">
+          <h3>Tu opinion nos interesa</h3>
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Nombre Completo:</label>
+                <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                <p class="help-block"></p>
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Numero Telefonico:</label>
+                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>E-mail:</label>
+                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Mensaje:</label>
+                <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+              </div>
+            </div>
+            <div id="success"></div>
+            <!-- For success/fail messages -->
+            <button type="submit" class="btn btn-primary" id="sendMessageButton">Enviar Mensaje</button>
+          </form>
+        </div>
+
+         <!-- Map Column -->
+      <div class="col-lg-6 mb-4">
+        <!-- Embedded Google Map -->
+        <h3>Nuestra Ubicación</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3595.396593688959!2d-100.30290818440474!3d25.691289917780388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86629576dd429c57%3A0xb110595d95a39ae9!2sCl.%20Rafael%20Plat%C3%B3n%20S%C3%A1nchez%202016%2C%20Cant%C3%BA%2C%2064550%20Monterrey%2C%20N.L.!5e0!3m2!1sen!2smx!4v1637288395631!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+
+  
+      </div>
+
+
+
+
+
+
+               
+
+
+
+            </div>
+        </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- API Whatsapp-->
+<a href="https://api.whatsapp.com/send?phone=528114909665" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>    
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+<!--Footer-->
+<footer class="d-flex flex-wrap   py-3 border-top" style="background-color: rgb(71, 71, 71); color: white;">
+  
+  <div style="margin-left: 250px;" >
+    <a href="/" class="mb-3 me-2 mb-md-0 ml-4 text-muted text-decoration-none lh-1">
+      <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+    </a>
+    <span class="text-muted" style="margin-left: 0px;"> <h7 style="color: white;">&copy;2021 Arte Exprés, Inc</h7></span>
+  </div>
+
+  
+  <ul class="nav list-unstyled d-flex" style="margin-left: 1000px;" > 
+    <li><a class="text-muted" href="https://twitter.com/Anthon9721"><svg class="bi" width="10" height="10"><i class="fab fa-twitter fa-2x" style="color: white;"></i></svg></a></li>
+      <li><a class="text-muted" href="https://www.instagram.com/anthon_oa/"><svg class="bi" width="10" height="10"><i class="fab fa-instagram fa-2x" style="color: white;"></i></svg></a></li>
+      <li><a class="text-muted" href="https://www.facebook.com/Anthon97O/"><svg class="bi" width="10" height="10"><i class="fab fa-facebook fa-2x" style="color: white;"></i></svg></a></li>
+  </ul>
+
+</footer>
+<!--/. Fin del Footer-->
+
+
+
+
+
+
+    <!--Llamar JS de Bootstrap-->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
